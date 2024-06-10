@@ -1,0 +1,24 @@
+
+.動物横並び2 {
+	display: flex;
+	justify-content: space-between;
+	
+	& .動物2 {
+		width: 100px;
+		border: 1px solid black;
+		padding: 10px 10px 10px 10px;
+		
+		& .動物画像2 {
+			width: 100%;
+		}
+
+		& .動物名2 {
+			font-size: 20px;
+			font-weight: bold;
+		}
+		
+		& .説明文2 {
+			font-size: 12px;
+		}
+	}
+}
